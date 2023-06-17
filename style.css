@@ -1,0 +1,83 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    margin: 20px;
+}
+
+#adduser-btn {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 18px;
+    margin: 30px 0;
+    background-color: white;
+    color: black;
+    width: 125px;
+}
+
+.input-cont {
+    display: flex;
+    font-size: 16px;
+}
+
+.input-cont > div{
+    margin-right: 50px;
+}
+
+.input-cont input {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    width: 20vw;
+    margin-top: 10px;
+}
+
+.error-message{
+    color: red;
+}
+
+.success-message{
+    color: green;
+}
+
+/* #employees-list{
+    display: flex;
+} */
+
+.employee-list{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.employees-container{
+    gap: 30px;
+    margin: 10px;
+}
+
+.employee-list{
+    width: 700px;
+    justify-content: space-between;
+}
+
+.employees-container .delete-button:nth-child(2){
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.input-cont div:nth-child(2) select{
+    margin-top: 8px;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+}
